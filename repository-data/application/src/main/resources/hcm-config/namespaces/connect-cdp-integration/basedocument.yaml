@@ -1,0 +1,15 @@
+definitions:
+  config:
+    /hippo:namespaces/connectcdpintegration/basedocument:
+      jcr:primaryType: hipposysedit:templatetype
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 7166c9d2-24fe-4fd7-925f-721df7287d04
+      /hipposysedit:nodetype:
+        jcr:primaryType: hippo:handle
+        jcr:mixinTypes: ['mix:referenceable']
+        jcr:uuid: 35b6879e-45df-41f3-9c0d-c102a9ec903e
+        /hipposysedit:nodetype:
+          jcr:primaryType: hipposysedit:nodetype
+          jcr:mixinTypes: ['hipposysedit:remodel']
+          hipposysedit:supertype: ['hippo:document', 'hippostdpubwf:document', 'hippostd:publishableSummary']
+          hipposysedit:uri: http://www.connectcdpintegration.com/connectcdpintegration/nt/1.0

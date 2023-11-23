@@ -1,0 +1,9 @@
+/content/documents/connectcdpintegration:
+  .meta:order-before: administration
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: 443b6809-ce5e-43ea-a370-e32345b7fe02
+  hippo:name: brXM Content Connect - CDP Integrations
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 996bcac5-86cf-49b5-a7a3-16a74863e814
+  hippotranslation:locale: en

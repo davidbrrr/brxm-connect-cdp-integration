@@ -1,0 +1,6 @@
+definitions:
+  config:
+    /hippo:namespaces/connectcdpintegration:
+      jcr:primaryType: hipposysedit:namespace
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 76923057-a326-4384-bd4e-0c7ccff8b32f

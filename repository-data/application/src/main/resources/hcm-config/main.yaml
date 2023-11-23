@@ -1,0 +1,5 @@
+definitions:
+  namespace:
+    connectcdpintegration:
+      uri: http://www.connectcdpintegration.com/connectcdpintegration/nt/1.0
+      cnd: namespaces/connect-cdp-integration.cnd

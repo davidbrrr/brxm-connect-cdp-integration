@@ -1,0 +1,4 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/connectcdpintegration/hst:components:
+      jcr:primaryType: hst:components

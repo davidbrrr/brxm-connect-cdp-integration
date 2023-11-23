@@ -1,0 +1,78 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:translations/hippo:types/connectcdpintegration:newsdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        connectcdpintegration:author: Author
+        connectcdpintegration:content: Content
+        connectcdpintegration:date: Date
+        connectcdpintegration:image: Image
+        connectcdpintegration:introduction: Introduction
+        connectcdpintegration:location: Location
+        connectcdpintegration:source: Source
+        connectcdpintegration:title: Title
+        jcr:name: News Item
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        connectcdpintegration:author: Auteur
+        connectcdpintegration:content: Inhoud
+        connectcdpintegration:date: Datum
+        connectcdpintegration:image: Afbeelding
+        connectcdpintegration:introduction: Introductie
+        connectcdpintegration:location: Locatie
+        connectcdpintegration:source: Bron
+        connectcdpintegration:title: Titel
+        jcr:name: Nieuwsbericht
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        connectcdpintegration:author: Verfasser
+        connectcdpintegration:content: Inhalt
+        connectcdpintegration:date: Datum
+        connectcdpintegration:image: Abbildung
+        connectcdpintegration:introduction: Einführung
+        connectcdpintegration:location: Standort
+        connectcdpintegration:source: Quelle
+        connectcdpintegration:title: Titel
+        jcr:name: News
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        connectcdpintegration:author: Auteur
+        connectcdpintegration:content: Contenu
+        connectcdpintegration:date: Date
+        connectcdpintegration:image: Image
+        connectcdpintegration:introduction: Introduction
+        connectcdpintegration:location: Lieu
+        connectcdpintegration:source: Source
+        connectcdpintegration:title: Titre
+        jcr:name: Message d'info
+    /hippo:configuration/hippo:translations/hippo:types/connectcdpintegration:contentdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        connectcdpintegration:content: Content
+        connectcdpintegration:introduction: Introduction
+        connectcdpintegration:publicationdate: Publication date
+        connectcdpintegration:title: Title
+        jcr:name: Simple Document
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        connectcdpintegration:content: Inhoud
+        connectcdpintegration:introduction: Introductie
+        connectcdpintegration:publicationdate: Publicatiedatum
+        connectcdpintegration:title: Titel
+        jcr:name: Eenvoudig Document
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        connectcdpintegration:content: Contenu
+        connectcdpintegration:introduction: Introduction
+        connectcdpintegration:publicationdate: Date de publication
+        connectcdpintegration:title: Titre
+        jcr:name: Document simple
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        connectcdpintegration:content: Inhalt
+        connectcdpintegration:introduction: Einführung
+        connectcdpintegration:publicationdate: Publikationsdatum
+        connectcdpintegration:title: Titel
+        jcr:name: Einfaches Dokument

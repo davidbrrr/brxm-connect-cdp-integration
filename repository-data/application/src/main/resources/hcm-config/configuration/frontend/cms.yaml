@@ -1,0 +1,20 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:frontend/cms/hippo-targeting/characteristic-engagement:
+      jcr:primaryType: frontend:plugin
+      characteristic: engagement
+      collector: engagement
+      plugin.class: org.example.EngagementCharacteristicPlugin
+      visitor.characteristic.visible: true
+      api.base.url: https://demoapp-api.bloomreach.com
+      api.secret: ''
+      api.key.id: ''
+      project.id: ''
+    /hippo:configuration/hippo:frontend/cms/hippo-targeting/collector-engagement:
+      jcr:primaryType: frontend:plugin
+      collector: engagement
+      plugin.class: org.example.EngagementCollectorPlugin
+      api.base.url: https://demoapp-api.bloomreach.com
+      api.secret: ''
+      api.key.id: ''
+      project.id: ''

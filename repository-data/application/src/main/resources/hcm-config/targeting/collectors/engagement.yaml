@@ -1,0 +1,8 @@
+definitions:
+  config:
+    /targeting:targeting/targeting:collectors/engagement:
+      jcr:primaryType: targeting:collector
+      enabled: true
+      project.id: ''
+      targeting:className: org.example.EngagementCollector
+      api.base.url: https://demoapp-api.bloomreach.com

@@ -1,0 +1,6 @@
+definitions:
+  config:
+    /targeting:targeting/targeting:characteristics/engagement:
+      jcr:primaryType: targeting:characteristic
+      targeting:collector: engagement
+      targeting:scorerClassName: org.example.EngagementScorer

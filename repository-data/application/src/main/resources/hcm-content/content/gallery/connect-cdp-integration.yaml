@@ -1,0 +1,7 @@
+/content/gallery/connectcdpintegration:
+  jcr:primaryType: hippogallery:stdImageGallery
+  jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+  jcr:uuid: 6f610f18-afc3-430e-b60a-18d4a0630a40
+  hippo:name: brXM Content Connect - CDP Integrations
+  hippostd:foldertype: [new-image-folder]
+  hippostd:gallerytype: ['hippogallery:imageset']

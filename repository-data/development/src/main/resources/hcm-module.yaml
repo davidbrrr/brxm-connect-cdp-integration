@@ -1,0 +1,7 @@
+group: 
+  name: connect-cdp-integration
+  after: hippo-cms
+project: connect-cdp-integration
+module: 
+  name: connect-cdp-integration-repository-data-development
+  after: connect-cdp-integration-repository-data-application

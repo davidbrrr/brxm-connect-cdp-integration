@@ -1,0 +1,6 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/connectcdpintegration/hst:catalog:
+      jcr:primaryType: hst:catalog
+      /connectcdpintegration-catalog:
+        jcr:primaryType: hst:containeritempackage

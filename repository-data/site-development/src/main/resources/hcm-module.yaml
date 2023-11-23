@@ -1,0 +1,6 @@
+site: connect-cdp-integration
+group: connect-cdp-integration
+project: connect-cdp-integration
+module:
+  name: connect-cdp-integration-repository-data-site-development
+  after: connect-cdp-integration-repository-data-site
